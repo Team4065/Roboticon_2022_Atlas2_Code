@@ -1,0 +1,44 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Compressor[15]": {
+        "header": {
+          "open": true
+        }
+      },
+      "SPARK MAX [13]": {
+        "header": {
+          "open": true
+        }
+      }
+    },
+    "Solenoids": {
+      "window": {
+        "visible": true
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/AirSystem": "Subsystem",
+      "/LiveWindow/DriveTrain": "Subsystem",
+      "/LiveWindow/FlyWheel": "Subsystem",
+      "/LiveWindow/Intake": "Subsystem",
+      "/LiveWindow/Kicker": "Subsystem",
+      "/LiveWindow/Lift": "Subsystem",
+      "/LiveWindow/Ungrouped/DigitalInput[0]": "Digital Input",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler"
+    }
+  },
+  "NetworkTables": {
+    "LiveWindow": {
+      "AirSystem": {
+        "open": true
+      }
+    },
+    "SmartDashboard": {
+      "open": true
+    }
+  }
+}
